@@ -645,7 +645,7 @@ local function showProcessingModal(productInfo, recipient)
     local iconImg = Instance.new("ImageLabel")
     iconImg.Size = UDim2.fromOffset(60, 60) -- Thu nhỏ icon (từ 80 xuống 60)
     iconImg.Position = UDim2.new(0.5, 0, 0, 15) -- Dịch lên một chút
-    -- ... các dòng còn lại giữ nguyên
+    
 
     iconImg.AnchorPoint = Vector2.new(0.5, 0)
     iconImg.BackgroundTransparency = 1
